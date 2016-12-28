@@ -1,0 +1,161 @@
+body{
+  margin:0;
+  overflow-x: hidden;
+}
+
+  nav {
+  top:0;
+  height: 215px;
+  background-color:#f2f2f2;
+  opacity:.9;
+  z-index:4;
+  position:fixed;
+  width:100%;
+}
+
+.navlogo {
+  width:140px;
+  height:auto;
+  padding:30px 50px 30px 90px;
+  text-align: center;
+
+}
+nav p{
+  font-family:'Lato', sans-serif;
+  font-size: 1.06em;
+  color:#303030;
+  font-variant:small-caps;
+  padding: 10px;
+}
+div.leftmenu{
+margin-left: 150px;
+float:left;
+
+}
+p.left {
+  float:left;
+  padding:40px;
+  margin-top:40px;
+  margin-bottom:40px;
+}
+div.rightmenu {
+  margin-right:150px;
+  float:right;
+}
+p.right{
+  float:right;
+  padding:40px;
+  margin-top:40px;
+  margin-bottom:40px;
+
+}
+figure{
+  top:0;
+  height:815px;
+  width: auto;
+  margin:0;
+  padding:0;
+  border:0;
+}
+
+
+.headercontainer{
+  float:center;
+  width:300px;
+  height:auto;
+  margin:0;
+  padding:0;
+
+}
+h1{
+  background-color:#be5f27;
+  text-align:center;
+  color:#f2f2f2;
+  font-family:'Oswald',regular;
+  font-size:2.1em;
+  margin:0;
+  padding:0;
+}
+
+.aboutus{
+  height:500px;
+  float:left;
+  width:50%;
+  padding:0;
+  background-color: #f2f2f2;
+}
+.aboutus p{
+  justify-content: center;
+  font-size: 1em;
+  line-height: 1.6em;
+  font-family:'Lato', sans-serif;
+  color:#303030;
+  width:70%;
+  padding:50px;
+  margin:0;
+}
+.aboutus p a{
+  font-famiy:'Lato';
+  font-weight:bold;
+  font-style:italic;
+  color:#be5f27;
+  text-decoration:none;
+}
+p.learnmore{
+  padding-top:50px;
+}
+.cakelist{
+  height:500px;
+  float:right;
+  width:50%;
+  background-color:#c3bbac;
+}
+.cakelist p{
+  font-family:'Oswald';
+  font-weight: bold;
+  font-size:3.25em;
+  line-height: .9em;
+  color: #f2f2f2;
+  margin:0;
+  padding:0;
+  justify-content: center;
+  text-align:center;
+  text-transform: uppercase;
+}
+.cake-icon{
+  padding-top: 100px;
+  padding-bottom: 25px;
+  margin-left:40%;
+}
+.hours{
+  display:flex;
+  height: 220px;
+  width:100%;
+  background-color: #8e5942;
+}
+.hours p{
+  font-family:'Oswald',sans-serif;
+  font-size: 2.1em;
+  color:white;
+  margin:100px;
+}
+.cake1{
+  height:400px;
+  width: 68%;
+  float:left;
+}
+
+aside.cakewalk{
+  display: flex;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2.5em;
+  color:#c3bbac;
+  font-family:'Oswald';
+  font-weight: bold;
+  line-height: .8em;
+  padding:100px;
+}
+.cakewalk p:nth-child(odd){
+  text-align:right;
+}
