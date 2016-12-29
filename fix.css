@@ -3,7 +3,7 @@ body{
   overflow-x: hidden;
 }
   nav {
-  height:815px;
+  height: 415px;
   margin:0;
   position:relative;
   top:0;
@@ -21,20 +21,29 @@ body{
 .menu p{
   font-family:'Lato', sans-serif;
   font-weight: 400;
-  font-size: 1.06em;
+  font-size: 1.4em;
   color:#303030;
   font-variant:small-caps;
 }
-figure {
-  display:block;
-  height:100%;
-  position:absolute;
-  z-index:-1;
-  top:0;
-  width: auto;
-  margin:0;
-  padding:0;
-  border:0;
+
+nav{
+  background-size: cover;
+  background-repeat:no-repeat;
+}
+.nav-main{
+  background-image: url(fix-index-hero.jpg);
+}
+.nav-about{
+  background-image: url(fix-about-hero.jpg);
+}
+.nav-custom{
+  background-image: url(fix-custom-hero.jpg);
+}
+.nav-cake{
+  background-image: url(fix-menu-hero.jpg);
+}
+.nav-hours{
+  background-image: url(fix-hours-hero.jpg);
 }
 
 .headercontainer{
@@ -216,9 +225,7 @@ aside.hournotes p{
 img.social, p.social{
   padding:12px;
 }
-.tier_two:last-child, .tier_one:last-child, .tier_three:last-child{
-  font:
-}
+
 img.footlogo{
   display:flex;
 }
@@ -240,7 +247,6 @@ div.image-container{
 }
 .one{
   background-image: url(fix-about-riley.png);
-
 }
 .two{
   background-image: url(fix-about-cassandra.png);
@@ -251,41 +257,43 @@ div.image-container{
 
 .tier_one, .tier_two, .tier_three{
   display:flex;
-  height:100vh;
+  height:110vh;
   bottom:0
 }
 
-aside.tier_one_title, .tier_two_title, .tier_three_title {
+.tier_one_title, .tier_two_title, .tier_three_title {
   display: flex;
   width:40%;
-  flex-flow: column wrap;
+  flex-flow: wrap;
   font-family: 'Lato';
   font-weight:300;
   text-transform: uppercase;
   line-height: 1.8em;
   color:#be5f27;
+  margin:0;
 
 }
-aside.tier_one_title, aside.tier_three_title{
+article.tier_one_title, article.tier_three_title{
   margin:5% 10% 5% 4%;
+
 }
-aside.tier_two_title{
+article.tier_two_title{
   margin:5% 4% 5% 10%;
-
 }
-.nav-about{
-  height:415px;
+.tier_two_title p{
+  text-align: right;
 }
-
-aside p{
+article p{
   width:100%;
   font-size: 1.2em;
+  margin:0;
+  text-align:left;
 }
-section p:nth-child(3){
+article p:nth-child(3){
   text-transform:none;
   color:black;
 }
-section p:first-child{
+article p:first-child{
   font-weight:700;
 }
 
