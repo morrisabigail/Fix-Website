@@ -67,17 +67,21 @@ nav{
     margin-left: 43%;
 }
 h1{
-  z-index:4;
-  text-align:center;
-  color:#f2f2f2;
-  font-family:'Oswald';
+  letter-spacing: 2px;
+  position: absolute;
+  z-index: 4;
+  background-color: #be5f27;
+  text-align: center;
+  color: #f2f2f2;
+  font-family: 'Oswald';
   font-weight: 400;
-  font-size:2.1em;
-  margin:0;
-  padding:5px;
+  font-size: 2.1em;
+  margin: 0;
+  padding: 2px 7px;
 }
 
 .aboutus{
+  position:relative;
   display: inline-block;
   left:0;
   width:50%;
@@ -314,6 +318,7 @@ article p:first-child{
 }
 
 div.strip {
+  position:relative;
   background: #e0d7c5;
   margin:0 20%;
   padding: 10%;
